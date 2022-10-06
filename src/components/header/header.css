@@ -47,7 +47,7 @@ header {
 /* =========== ME ============== */
 
 .me {
-    background: linear-gradient(var(--color-primary), transparent) ;
+    background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
     height: 30rem;
     position: absolute;
@@ -55,7 +55,7 @@ header {
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 3rem 1.5rem 1.5rem 1.5rem;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 
 
@@ -67,8 +67,8 @@ header {
     right: -2rem;
     bottom: 5rem;
     transform: rotate(90deg);
-    font-size: 0.9rem;
-    font-weight: 300;
+    font-size: 0.8rem;
+    font-weight: 500;
 }
 
 

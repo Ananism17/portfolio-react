@@ -60,6 +60,7 @@ h1 {
 
 section {
     margin-top: 8rem;
+    height: 100vh;
 }
 
 section > h2, 
@@ -94,6 +95,7 @@ a:hover {
     border-radius: 0.4rem;
     cursor: pointer;
     border: 2px solid var(--color-primary);
+    font-weight: 500;
     transition: var(--transition);
 }
 
