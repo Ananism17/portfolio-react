@@ -1,7 +1,9 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me2.png'
+import ME from '../../assets/me2.jpg'
 import {FaAward} from 'react-icons/fa'
+import {BsPeopleFill} from 'react-icons/bs'
+import {MdFolderSpecial} from 'react-icons/md'
 
 const About = () => {
   return (
@@ -20,17 +22,17 @@ const About = () => {
             <article className="about__card">
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>Working for a week</small>
+              <small>3+ Years</small>
             </article>
             <article className="about__card">
-              <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>Working for a week</small>
+              <MdFolderSpecial className='about__icon'/>
+              <h5>Projects</h5>
+              <small>15+ Completed</small>
             </article>
             <article className="about__card">
-              <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>Working for a week</small>
+              <BsPeopleFill className='about__icon'/>
+              <h5>Clienteles</h5>
+              <small>50+ worldwide</small>
             </article>
           </div>
 

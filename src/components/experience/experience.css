@@ -1,0 +1,98 @@
+
+.experience__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.experience__container > div {
+    background: var(--color-bg-variant);
+    border: 2px solid transparent;
+    /* background: rgb(68,68,68);
+    background: linear-gradient(0deg, rgba(68,68,68,1) 0%, rgba(226,226,226,1) 100%); */
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    transition: var(--transition-fast);
+    opacity: 0.9;
+}
+
+.experience__container > div:hover {
+    background: transparent;
+    border: 3px solid var(--color-primary);
+    cursor: default;
+    opacity: 1;
+}
+
+.experience__container > div h3 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: var(--color-primary);
+    /* font-style: italic; */
+}
+
+.experience__container .experience__company {
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: var(--color-white);
+}
+.experience__container .experience__company:hover {
+    color: var(--color-primary);
+}
+
+
+.experience__container .experience__date {
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: var(--color-white);
+}
+
+.experience__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.experience__details {
+    display: flex;
+    gap: 1rem;
+}
+
+.experience__details-icon {
+    margin-top: 6px;
+} 
+
+
+
+
+
+
+
+/* ======= RESPONSIVE MEDIA QUERIES =======*/
+
+@media screen and (max-width: 1024px) {
+    .experience__container {
+        grid-template-columns: 1fr;
+    }
+
+    .experience__container > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .experience__content {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .experience__container {
+        gap: 1rem;
+    }
+
+    .experience__container > div {
+        width: 95%;
+        padding: 2rem 1rem;
+    }
+}
